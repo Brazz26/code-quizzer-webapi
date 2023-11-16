@@ -1,0 +1,13 @@
+h1 {
+    font-size: 4em;
+    color: white;
+    background-color: black;
+   
+}
+
+h2 {
+    display: flex;
+    /*margin-left: 40%;*/
+    margin: 0px 750px 50px; 
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
