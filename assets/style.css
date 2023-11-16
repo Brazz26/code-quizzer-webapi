@@ -10,4 +10,11 @@ h2 {
     /*margin-left: 40%;*/
     margin: 0px 750px 50px; 
     font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 1000px;
+}
+h3{ display:flex;
+    margin:20px 600px 50px;
+    flex-wrap: wrap;
+    font-size: 24px;
 }
