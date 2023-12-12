@@ -21,6 +21,7 @@
                 <h1>
                     Code Quiz
                 </h1>
+                <div><span id="time-element">time 100</span></div>
             </header>
             <h2>
                 Welcome to the Code Quiz
@@ -31,50 +32,17 @@
                     question.
                     Once you are ready, you may begin by pressing the "begin" button.
                 </p>
-                <button>Begin</button>
+                <button id="start">Begin</button>
             </h3>
         </section>
-        <section class="quiz">
-            <header class="container">
+        <header class="container">
                 <h2>
                     Quiz
                 </h2>
             </header>
-            <h3 class="Quiz-Question" id="1st">What is the basic document used to create a webpage?</h3>
-            <div>
-                <button>A.HTML</button>
-                <button>B.Reddit</button>
-                <button>C.ReadMe File</button>
-                <button>D.Java</button>
-            </div>
-            <h3 class="Quiz-Question" id="2nd">Which is not a programming language?</h3>
-            <div>
-                <button>A.Java</button>
-                <button>B.Javascript</button>
-                <button>C.PHP</button>
-                <button>D.C-</button>
-            </div>
-            <h3 class="Quiz-Question" id="3rd">What are the four basics of EVERY coding language?</h3>
-            <div>
-                <button>A.Algorithms, Syntax, Semantics, Forms</button>
-                <button>B.Algorithms, Forms, Operators, Tags</button>
-                <button>C.Algorithms, Syntax, Functions, Operators</button>
-                <button>D.Syntax, Semantics, Functions, Forms</button>
-            </div>
-            <h3 class="Quiz-Question" id="4th">Who is the best overall Marvel character?</h3>
-            <div>
-                <button>A.Deadpool</button>
-                <button>B.Deadpool</button>
-                <button>C.Deadpool</button>
-                <button>D.Deadpool</button>
-            </div>
-            <h3 class="Quiz-Question" id="5th">Which module did you find the most difficult to comprehend?</h3>
-            <div>
-                <button>A.HTML</button>
-                <button>B.Javascript</button>
-                <button>C.Third-Party APIs</button>
-                <button>D.Cascading Stylesheets</button>
-            </div>
+            <section class="quiz">
+                <div class="questions"></div>
+                <div class="choices"></div>
         </section>
         <section class="begin">
             <header class="container">
@@ -85,17 +53,17 @@
             <h3>
                 How'd you do?
             </h3>
-            <h3>
+            <!-- <h3>
                 <p>
                     Below you will find a short selection of questions to test your coding knowledge with a bonus
                     question.
                     Once you are ready, you may begin by pressing the "begin" button.
                 </p>
                 <button>Finish</button>
-            </h3>
+            </h3> -->
         </section>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
-<script src="./assets/js/script.js"></script>
 
 </html>
