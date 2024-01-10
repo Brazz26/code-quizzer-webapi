@@ -5,9 +5,15 @@ h1 {
    
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    font: 48px;
+}
 h2 {
     display: flex;
     /*margin-left: 40%;*/
+    justify-content: center;
     margin: 0px 750px 50px; 
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 30px;
@@ -30,7 +36,7 @@ button {
     background-color: blue;
     color: white;
     padding: 10px 10px 10px;
-    box-shadow: 0 10px 5px;
+    box-shadow: 0 10px 10px;
     align-items: center;
     flex-flow:column;
 }

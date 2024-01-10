@@ -47,6 +47,7 @@ function startTimer(){
         }
     },1000)
 }
+//this function will display and run quiz
 function displayQuiz(){
 questionEl.textContent = quizArray[quizIndex].question
 let answerBtn = ''
@@ -56,13 +57,15 @@ for (i = 0; i < choiceList.length; i++){
     choicesEl.innerHTML = answerBtn
 }
 }
+//listens for the click to proceed through quiz
 choicesEl.addEventListener('click', function(event){
     event.preventDefault()
     var userChoice = event.target
     if (userChoice.matches('button')){
         checkChoice(userChoice)
     }
-})
+});
+//this function checks userchoices and reutrns score
 function checkChoice(userChoice){
     var rightAnswer = quizArray[quizIndex].correctAnswer
     console.log(userChoice.textContent, rightAnswer)
@@ -76,6 +79,7 @@ function checkChoice(userChoice){
         displayQuiz()
     }else {
         clearInterval()
+        console.log(score)
         //eventually endgame function can go here
     }
 }
